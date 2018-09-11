@@ -4,10 +4,9 @@
 ---
 
 ## Overview
-Program to keep track of grades for several students at once. Two vector, one holding the name of the student and the other 
-holding the final grades of the student are kept in sync. The final grade is computed from midterm, finals and homework 
-grades by the formula (0.2 * midterm) + (0.4 * final) + (0.4 * avgHomework) where avgHomework is the average of all 
-homework
+Program to write a class that supports course grading of students with a method to change student grade and another method 
+to compute the grade point average.
+
 
 
 ## Standard install via command-line

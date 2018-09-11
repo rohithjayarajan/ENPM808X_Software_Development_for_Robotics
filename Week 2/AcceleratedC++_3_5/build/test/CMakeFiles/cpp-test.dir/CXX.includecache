@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rohith/Desktop/Week 2/AcceleratedC++_3_5/test/main.cpp
+
+/home/rohith/Desktop/Week 2/AcceleratedC++_3_5/test/test.cpp
+

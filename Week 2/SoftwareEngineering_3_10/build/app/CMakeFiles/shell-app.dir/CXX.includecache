@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/CourseGrading.cpp
+CourseGrading.hpp
+../include/CourseGrading.hpp
+iostream
+-
+
+../include/CourseGrading.hpp
+vector
+-
+
+../include/lib.hpp
+iostream
+-
+
+/home/rohith/Desktop/Week 2/SoftwareEngineering_3_10/app/main.cpp
+iostream
+-
+lib.hpp
+-
+CourseGrading.cpp
+/home/rohith/Desktop/Week 2/SoftwareEngineering_3_10/app/CourseGrading.cpp
+

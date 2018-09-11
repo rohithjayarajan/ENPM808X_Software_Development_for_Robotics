@@ -4,10 +4,8 @@
 ---
 
 ## Overview
-Program to keep track of grades for several students at once. Two vector, one holding the name of the student and the other 
-holding the final grades of the student are kept in sync. The final grade is computed from midterm, finals and homework 
-grades by the formula (0.2 * midterm) + (0.4 * final) + (0.4 * avgHomework) where avgHomework is the average of all 
-homework
+Program to read words from an input stream and store them in a vector. Additionally, the number of words present and the 
+number of times each word occurred was also computed.
 
 
 ## Standard install via command-line

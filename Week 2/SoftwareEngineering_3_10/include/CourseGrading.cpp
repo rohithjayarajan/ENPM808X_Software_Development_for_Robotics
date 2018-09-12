@@ -60,9 +60,11 @@ CourseGrading::~CourseGrading() {
 void CourseGrading::changeStudentGrade(int& studentId, double& newCourseGrade) {
 
 
-	int pos;
+	int pos;	///< int variable to find postiion of student in vector according to ID
+	// find position of index corresponding to student ID
 	pos = find(studentID.begin(), studentID.end(), studentId) - studentID.begin();
 
+	// update grade
 	studentGrade[pos] = newCourseGrade;
 }
 

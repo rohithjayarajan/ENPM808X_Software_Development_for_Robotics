@@ -21,7 +21,8 @@ public:
 	// compute the grade point average for the class
 	double computeGradePointAverage();
 private:
-	std::vector<double> studentGrade;	///< vector of student grades where each student is identified by integer
+	std::vector<double> studentGrade;	///< vector of student grades
+	std::vector<double> studentID;		///< vector of student IDs
 };
 
 #endif /* SOFTWAREENGINEERING_3_10_INCLUDE_COURSEGRADING_HPP_ */

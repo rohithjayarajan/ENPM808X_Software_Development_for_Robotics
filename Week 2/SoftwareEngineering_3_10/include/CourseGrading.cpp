@@ -4,6 +4,7 @@
 
 #include "CourseGrading.hpp"
 #include <iostream>
+#include <algorithm>
 
 /**
  *   @brief Default constructor for CourseGrading
@@ -15,12 +16,25 @@
  */
 CourseGrading::CourseGrading() {
 	// created vector with course grades for 7 students
+	studentID.push_back(1);
 	studentGrade.push_back(60);
+
+	studentID.push_back(2);
 	studentGrade.push_back(70);
+
+	studentID.push_back(3);
 	studentGrade.push_back(75);
+
+	studentID.push_back(4);
 	studentGrade.push_back(80);
+
+	studentID.push_back(5);
 	studentGrade.push_back(50);
+
+	studentID.push_back(6);
 	studentGrade.push_back(100);
+
+	studentID.push_back(7);
 	studentGrade.push_back(65);
 }
 
@@ -45,7 +59,11 @@ CourseGrading::~CourseGrading() {
  */
 void CourseGrading::changeStudentGrade(int& studentId, double& newCourseGrade) {
 
-	studentGrade[studentId] = newCourseGrade;
+
+	int pos;
+	pos = find(studentID.begin(), studentID.end(), studentId) - studentID.begin();
+
+	studentGrade[pos] = newCourseGrade;
 }
 
 /**

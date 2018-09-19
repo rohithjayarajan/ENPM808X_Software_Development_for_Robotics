@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/rohith/Desktop/submissions/Week3/SoftwareEngineering_9_4/build/app",
+  "command": "/usr/bin/c++    -I/home/rohith/Desktop/submissions/Week3/SoftwareEngineering_9_4/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/shell-app.dir/main.cpp.o -c /home/rohith/Desktop/submissions/Week3/SoftwareEngineering_9_4/app/main.cpp",
+  "file": "/home/rohith/Desktop/submissions/Week3/SoftwareEngineering_9_4/app/main.cpp"
+}
+]

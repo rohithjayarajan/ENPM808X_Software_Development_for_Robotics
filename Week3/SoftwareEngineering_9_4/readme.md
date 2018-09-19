@@ -5,7 +5,7 @@
 
 ## Overview
 Program to find if a text is part of a string. If the text is a part of the 
-string, then the poisition at which the text is found is returned.
+string, then the position at which the text is found is returned.
 
 ## Standard install via command-line
 ```
